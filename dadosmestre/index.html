@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="Grid.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+        <title>Dados para RPG</title>
+    </head>
+
+    <body>
+            <div class="caixa-branca">
+                
+                <div class="col span-1-of-9 box">
+                    <h2>D4</h2>
+                    <img src="dice-1.png" class="dado" alt="Dado" id="dado-1">
+                    <input type="number" placeholder="Mod" class="modificadores" id="modificador-1" value="0">
+                    <button class="btn-rolar" id="btn-1"><i class="ion-ios-loop"></i>Rolar dado</button>
+                    
+                    <div class="caixa-pontos-atuais">
+                        <div class="caixa-pontos-atuais-label">Atual</div>
+                        <div class="caixa-pontos-atuais-numeros" id="atual-1">0</div>
+                    </div>
+                </div>
+                
+                <div class="col span-1-of-9 box">
+                    <h2>D6</h2>
+                    <img src="dice-1.png" alt="Dado" id="dado-2">
+                    <input type="number" placeholder="Mod" class="modificadores" id="modificador-2" value="0">
+                    <button class="btn-rolar" id="btn-2"><i class="ion-ios-loop"></i>Rolar dado</button>
+                    
+                    <div class="caixa-pontos-atuais">
+                        <div class="caixa-pontos-atuais-label">Atual</div>
+                        <div class="caixa-pontos-atuais-numeros" id="atual-2">0</div>
+                    </div>
+                </div>
+                
+                <div class="col span-1-of-9 box">
+                    <h2>D8</h2>
+                    <div class="caixa-dado-8">
+                        <img src="dice-8.jpg" alt="Dado" id="dado-3">
+                        <p class="ponto-dado-8">0</p>
+                    </div>
+                    <input type="number" placeholder="Mod" class="modificadores" id="modificador-3" value="0">
+                    <button class="btn-rolar" id="btn-3"><i class="ion-ios-loop"></i>Rolar dado</button>
+                    
+                    <div class="caixa-pontos-atuais">
+                        <div class="caixa-pontos-atuais-label">Atual</div>
+                        <div class="caixa-pontos-atuais-numeros" id="atual-3">0</div>
+                    </div>
+                </div>
+                
+                <div class="col span-1-of-9 box">
+                    <h2>D10</h2>
+                    <div class="caixa-dado-10">
+                        <img src="d10.png" alt="Dado" id="dado-4">
+                        <p class="ponto-dado-10">0</p>
+                    </div>
+                    <input type="number" placeholder="Mod" class="modificadores" id="modificador-4" value="0">
+                    <button class="btn-rolar" id="btn-4"><i class="ion-ios-loop"></i>Rolar dado</button>
+                    
+                    <div class="caixa-pontos-atuais">
+                        <div class="caixa-pontos-atuais-label">Atual</div>
+                        <div class="caixa-pontos-atuais-numeros" id="atual-4">0</div>
+                    </div>
+                </div>
+                
+                <div class="col span-1-of-9 box">
+                    <h2>D12</h2>
+                    <div class="caixa-dado-12">
+                        <img src="d12.png" alt="Dado" id="dado-5">
+                        <p class="ponto-dado-12">0</p>
+                    </div>
+                    <input type="number" placeholder="Mod" class="modificadores" id="modificador-5" value="0">
+                    <button class="btn-rolar" id="btn-5"><i class="ion-ios-loop"></i>Rolar dado</button>
+                    
+                    <div class="caixa-pontos-atuais">
+                        <div class="caixa-pontos-atuais-label">Atual</div>
+                        <div class="caixa-pontos-atuais-numeros" id="atual-5">0</div>
+                    </div>
+                </div>
+                
+                <div class="col span-1-of-9 box">
+                    <h2>D16</h2>
+                    <div class="caixa-dado-16">
+                        <img src="d16.png" alt="Dado" id="dado-6">
+                        <p class="ponto-dado-16">0</p>
+                    </div>
+                    <input type="number" placeholder="Mod" class="modificadores" id="modificador-6" value="0">
+                    <button class="btn-rolar" id="btn-6"><i class="ion-ios-loop"></i>Rolar dado</button>
+                    
+                    <div class="caixa-pontos-atuais">
+                        <div class="caixa-pontos-atuais-label">Atual</div>
+                        <div class="caixa-pontos-atuais-numeros" id="atual-6">0</div>
+                    </div>
+                </div>
+                
+                <div class="col span-1-of-9 box">
+                    <h2>D20</h2>
+                    <div class="caixa-dado-16">
+                        <img src="d20.png" alt="Dado" id="dado-7">
+                        <p class="ponto-dado-20">0</p>
+                    </div>
+                    <input type="number" placeholder="Mod" class="modificadores" id="modificador-7" value="0">
+                    <button class="btn-rolar" id="btn-7"><i class="ion-ios-loop"></i>Rolar dado</button>
+                    
+                    <div class="caixa-pontos-atuais">
+                        <div class="caixa-pontos-atuais-label">Atual</div>
+                        <div class="caixa-pontos-atuais-numeros" id="atual-7">0</div>
+                    </div>
+                </div>
+                
+                <div class="col span-1-of-9 box">
+                    <h2>D30</h2>
+                    <div class="caixa-dado-16">
+                        <img src="d30.png" alt="Dado" id="dado-8">
+                        <p class="ponto-dado-30">5</p>
+                    </div>
+                    <input type="number" placeholder="Mod" class="modificadores" id="modificador-8" value="0">
+                    <button class="btn-rolar" id="btn-8"><i class="ion-ios-loop"></i>Rolar dado</button>
+                    
+                    <div class="caixa-pontos-atuais">
+                        <div class="caixa-pontos-atuais-label">Atual</div>
+                        <div class="caixa-pontos-atuais-numeros" id="atual-8">0</div>
+                    </div>
+                </div>
+                
+                <div class="col span-1-of-9 box">
+                    <h2>D100</h2>
+                    <div class="caixa-dado-100">
+                        <img src="d100.png" alt="Dado" id="dado-9">
+                        <p class="ponto-dado-100">5</p>
+                    </div>
+                    <input type="number" placeholder="Mod" class="modificadores" id="modificador-9" value="0">
+                    <button class="btn-rolar" id="btn-9"><i class="ion-ios-loop"></i>Rolar dado</button>
+                    
+                    <div class="caixa-pontos-atuais">
+                        <div class="caixa-pontos-atuais-label">Atual</div>
+                        <div class="caixa-pontos-atuais-numeros" id="atual-9">0</div>
+                    </div>
+                </div>
+                
+                <div class="caixa-botoes">
+                    <ul class="lista-botoes">
+                        <li>
+                            <button class="btn-novo"><i class="ion-ios-plus-outline"></i>Novo jogo</button>
+                        </li>
+                        <li>
+                            <button class="btn-rolar" id="btn-10"><i class="ion-ios-loop"></i>Rolar dados</button>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
